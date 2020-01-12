@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210B56DE23B5DC3600CD7D4C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210B56DD23B5DC3600CD7D4C /* Data.swift */; };
 		210D60362377CB9600B33E7E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210D60352377CB9600B33E7E /* CategoryViewController.swift */; };
 		21C773052350407200BD66B8 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21C773022350407200BD66B8 /* DataModel.xcdatamodeld */; };
 		21CFFC2D232892DA00EA9E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFFC2C232892DA00EA9E34 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210B56DD23B5DC3600CD7D4C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		210D60352377CB9600B33E7E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		21C773032350407200BD66B8 /* Data Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Data Model.xcdatamodel"; sourceTree = "<group>"; };
 		21C773042350407200BD66B8 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				21C773022350407200BD66B8 /* DataModel.xcdatamodeld */,
+				210B56DD23B5DC3600CD7D4C /* Data.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -124,7 +127,6 @@
 				88E8FE0B660DC7D5F9FC29E7 /* Pods-Todoey 2.debug.xcconfig */,
 				EFDF146111ADC7313D7677DB /* Pods-Todoey 2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -251,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				210D60362377CB9600B33E7E /* CategoryViewController.swift in Sources */,
+				210B56DE23B5DC3600CD7D4C /* Data.swift in Sources */,
 				21C773052350407200BD66B8 /* DataModel.xcdatamodeld in Sources */,
 				21CFFC2F232892DA00EA9E34 /* TodoListViewController.swift in Sources */,
 				21CFFC2D232892DA00EA9E34 /* AppDelegate.swift in Sources */,
